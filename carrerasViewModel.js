@@ -51,7 +51,6 @@ export class CarrerasViewModel {
 
         contenedor.innerHTML = contenidoHtml;
 
-        // FUNCIONALIDAD #4: INSCRIPCIÓN A CARRERAS
         const botonesUnirme = document.querySelectorAll('.btn-unirme');
         botonesUnirme.forEach(boton => {
             boton.addEventListener('click', (e) => {
