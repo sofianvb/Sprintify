@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#mapa-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://cartodb-basemaps-c.global.ssl.fastly.net/dark_all/14/8042/6132.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.top-search-bar {
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 15px #000000;
+    border: 1px solid #333333;
+    color: #ffffff;
+}
+
+.top-search-bar input {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+}
+
+.top-search-bar input::placeholder {
+    color: #aaaaaa;
+}
+
+.carrera-card {
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: 0 10px 30px #000000;
+    border: 1px solid #333333;
+}
+
+.badge-sprintify {
+    background-color: #e0ff00;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.bottom-nav {
+    background-color: #1e1e1e;
+    border-top: 1px solid #333333;
+    padding: 10px 0;
+}
+
+.nav-icon {
+    color: #888888;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icon.active {
+    color: #e0ff00;
+}
+
+.card-registro {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #333333;
+}
+
+.form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #e0ff00;
+    box-shadow: 0 0 5px #e0ff00;
+}
